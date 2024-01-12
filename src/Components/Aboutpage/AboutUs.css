@@ -1,0 +1,13 @@
+body{
+    overflow-x: none;
+}
+.box{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.Cardbox{
+    width: 100%;
+}

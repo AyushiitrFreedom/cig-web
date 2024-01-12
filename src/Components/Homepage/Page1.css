@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body{
+  overflow-x: none;
+}
+.HomepageContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow-x: none;
+}
+
+.col1page1 {
+  width: 70vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  padding: 30vh 8vw;
+
+}
+
+.headingpage1 {
+
+  color: #3C4DC2;
+  font-family: Roboto;
+  font-size: 2vmax;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 121.687%;
+  width: 54vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.containtpage1 {
+  color: #595B5F;
+  font-family: Inter;
+  font-size: 1vmax;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+}
+
+.col2page1 {
+  width: 99vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 0;
+}
+
+.page1bg {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width:1024px) {
+  .HomepageContainer{
+    width: 99vw;
+    height: 70vh;
+  }
+  .col1page1{
+    width: 70vw;
+    height: 70vh;
+    padding: 20vh 8vw;
+   
+  }
+  
+.headingpage1 {
+  width: 54vw;
+  height: 10vh;
+
+}
+
+
+.col2page1 {
+  width: 99vw;
+  height: 70vh;
+}
+
+.page1bg {
+  width: 100%;
+  height: 100%;
+}
+.btncomponent{
+  font-size: 1vmax;
+}
+  
+}
+
+@media (max-width:500px) {
+
+  
+.headingpage1 {
+  height: 15vh;
+  line-height: 100%;
+}
+
+}
+
+@media (max-width:450px) {
+  .HomepageContainer{
+    width: 99vw;
+    height:50vh;
+  }
+  .col1page1{
+    width: 70vw;
+    height: 50vh;
+    padding: 12vh 8vw;
+
+  }
+  
+.headingpage1 {
+  width: 54vw;
+  height: 10vh;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.col2page1 {
+  width: 99vw;
+  height: 50vh;
+}
+}
